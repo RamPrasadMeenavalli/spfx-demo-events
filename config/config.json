@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "event-agenda-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/eventAgenda/EventAgendaWebPart.js",
+          "manifest": "./src/webparts/eventAgenda/EventAgendaWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "EventAgendaWebPartStrings": "lib/webparts/eventAgenda/loc/{locale}.js"
+  }
+}
